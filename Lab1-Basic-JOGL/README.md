@@ -1,18 +1,19 @@
-## Getting Started
+# Lab 1: การใช้งาน JOGL เบื้องต้น (Basic JOGL)
+![Quiz](Quiz.png)
+### 1. การวาดเส้น (Q1)
+![การวาดเส้น (Q1)](Q1-Result.png)
+- การใช้ GL_LINES (เส้นสีแดง)
+- การใช้ GL_LINE_STRIP (เส้นสีเขียว)
+- การใช้ GL_LINE_LOOP (เส้นสีน้ำเงิน)
+- การเพิ่มตัวอักษรกำกับจุด A-F
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### 2. การวาดบ้าน (Q2)
+![การวาดบ้าน (Q2)](Q2-Result.png)
+- การวาดบ้านด้วย GL_LINE_LOOP
+- การวาดบ้านด้วย GL_LINE_STRIP
+- ส่วนประกอบ: หลังคา, ตัวบ้าน, ประตู, หน้าต่าง, ปล่องไฟ
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 3. การวาดรูปหลายเหลี่ยม (Q3)
+![การวาดรูปหลายเหลี่ยม (Q3)](Q3-Result.png)
+- การใช้ GL_POLYGON วาดรูปสี่เหลี่ยมและสามเหลี่ยม
+- การระบายสีพื้นที่ด้วยสีต่างๆ
