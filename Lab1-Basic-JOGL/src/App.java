@@ -5,5 +5,6 @@ public class App {
     new Q1();
     new Q2();
     new Q3();
+    new QBonus();
   }
 }
